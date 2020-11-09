@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title-hero {
+  @apply text-3xl;
+  @apply mb-4;
+  @apply font-bold;
+  @apply text-gray-900;
+}
+
+@screen sm {
+  .title-hero {
+    @apply text-5xl;
+  }
+}
+
+.subtitle-hero {
+  @apply mb-8;
+  @apply leading-relaxed;
+  @apply font-normal;
+  @apply text-2xl;
+  @apply text-gray-700;
+}
+
+.title-section {
+  @apply text-2xl;
+  @apply font-semibold;
+  @apply mb-4;
+  @apply text-gray-900;
+}
+
+@screen sm {
+  .title-section {
+    @apply text-4xl;
+  }
+}
+
+.subtitle-section {
+  @apply leading-relaxed;
+  @apply text-lg;
+  @apply text-gray-700;
+  @apply font-normal;
+}
+
+.btn {
+  @apply inline-flex;
+  @apply border-0;
+  @apply py-2;
+  @apply px-6;
+  @apply rounded;
+  @apply text-lg;
+  @apply font-semibold;
+  @apply transition-all;
+  @apply duration-300;
+  @apply ease-in-out;
+}
+
+.btn-sm {
+  @apply inline-flex;
+  @apply items-center;
+  @apply border-0;
+  @apply font-semibold;
+  @apply py-1;
+  @apply px-3;
+  @apply rounded;
+  @apply text-base;
+  @apply mt-0;
+  @apply transition-all;
+  @apply duration-300;
+  @apply ease-in-out;
+}
+
+.btn:focus {
+  @apply outline-none;
+}
+
+.btn-sm:focus {
+  @apply outline-none;
+}
+
+.btn-primary {
+  @apply bg-indigo-500;
+  @apply text-white;
+}
+
+.btn-secundary {
+  @apply text-gray-700;
+  @apply bg-gray-300;
+}
+
+.btn-primary:hover  {
+  @apply bg-indigo-600;
+}
+
+.btn-secundary:hover  {
+  @apply bg-gray-300;
+}
