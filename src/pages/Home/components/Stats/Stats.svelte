@@ -5,7 +5,7 @@
 
 <section
   class="text-gray-700 body-font bg-gradient-to-b from-purple-100 to-indigo-100">
-  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+  <div class="container px-5 pt-12 pb-24 mx-auto flex flex-wrap">
     <div
       class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
       <img
@@ -24,9 +24,15 @@
           everyone's life easier when we are talking about find and plan events.
         </div>
       </div>
-      <StatsItem name="Users" value="+10k" icon={Users} />
-      <StatsItem name="Events" value="+25k" icon={Ticket} />
-      <StatsItem name="Cities" value="2" icon={Home} />
+      <div class="w-1/2 md:w-1/3">
+        <StatsItem name="Users" value="+10k" icon={Users} />
+      </div>
+      <div class="w-1/2 md:w-1/3">
+        <StatsItem name="Events" value="+25k" icon={Ticket} />
+      </div>
+      <div class="w-1/2 md:w-1/3">
+        <StatsItem name="Cities" value="2" icon={Home} />
+      </div>
     </div>
   </div>
 </section>

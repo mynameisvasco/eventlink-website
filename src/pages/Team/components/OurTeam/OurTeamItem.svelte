@@ -9,7 +9,7 @@
   <div class="h-full flex flex-col items-center text-center">
     <img
       alt="team"
-      class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+      class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-top mb-4"
       src={image} />
     <div class="w-full">
       <h2 class="title-font font-semibold text-lg text-gray-900">{name}</h2>

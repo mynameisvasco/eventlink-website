@@ -1,13 +1,15 @@
 <script>
-  import Divider from "../../components/Divider/Divider.svelte";
+  import Download from "./components/Download/Download.svelte";
 
-  import Download from "./Download/Download.svelte";
-
-  import Hero from "./Hero/Hero.svelte";
-  import Services from "./Services/Services.svelte";
+  import Hero from "./components/Hero/Hero.svelte";
+  import Services from "./components/Services/Services.svelte";
+  import Testimonials from "./components/Testimonials/Testimonials.svelte";
+  import Ticketline from "./components/Ticketline/Ticketline.svelte";
 </script>
 
 <Hero />
 <Download />
-<Divider />
+<hr style="width:80%;" class="mx-auto" />
 <Services />
+<Ticketline />
+<Testimonials />

@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { Search } from "svelte-hero-icons";
   import TypingText from "../../../../components/TypingText/TypingText.svelte";
 </script>
 
@@ -9,13 +8,12 @@
     <div
       class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 class="title-hero">
-        A place to find and
+        A place to find and plan
         <br class="hidden lg:inline-block" />
-        plan
         <TypingText
           delay={100}
           waitToDelete={1000}
-          words={['sports games', 'shows', 'meetings', 'weddings', 'parties']} />
+          words={['sports games', 'shows', 'meetings', 'weddings', 'parties', 'conferences']} />
       </h1>
       <p class="subtitle-hero">
         Creating events is easier with Pland. Search throughout thousands of
@@ -26,7 +24,8 @@
         <button class="ml-4 btn btn-secundary ">Learn More</button>
       </div>
     </div>
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 relative">
+    <div
+      class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 relative order-first md:order-last">
       <img
         class="object-cover object-center rounded relative z-10 w-full"
         alt="hero"
