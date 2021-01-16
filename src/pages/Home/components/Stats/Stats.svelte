@@ -20,8 +20,9 @@
           Join the rocket today and help our community grow
         </h1>
         <div class="subtitle-section">
-          Our main goal is to target more users and cities in order to make
-          everyone's life easier when we are talking about find and plan events.
+          Our main goal is to branch out to more users and cities in order to
+          make everyone's lives easier when we are talking about finding and
+          planning events.
         </div>
       </div>
       <div class="w-1/2 md:w-1/3">
@@ -31,7 +32,7 @@
         <StatsItem name="Events" value="+25k" icon={Ticket} />
       </div>
       <div class="w-1/2 md:w-1/3">
-        <StatsItem name="Cities" value="2" icon={Home} />
+        <StatsItem name="City" value="1" icon={Home} />
       </div>
     </div>
   </div>

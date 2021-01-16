@@ -16,8 +16,8 @@
           words={['sports games', 'shows', 'meetings', 'weddings', 'parties', 'conferences']} />
       </h1>
       <p class="subtitle-hero">
-        Creating events is easier with Pland. Search throughout thousands of
-        events occuring right now or create your own and invite your friends.
+        Creating events is easier with Pland. Search through thousands of events
+        occuring right now or create your own and invite your friends.
       </p>
       <div class="flex justify-center">
         <button class="btn btn-primary">Sign up</button>

@@ -14,20 +14,38 @@
       </p>
     </div>
     <div class="lg:w-2/3 w-full mx-auto overflow-auto mb-12">
-      <Table headers={['Document', 'Iteration']} title="Reports">
+      <Table headers={["Document", "Iteration"]} title="Reports">
         <ReportsTableItem
-          version="v1.0"
+          version="v1.1"
           link="/assets/e2.pdf"
-          name="E2: Relatório Técnico: Visão do Projeto" />
+          name="E2: Relatório Técnico: Visão do Projeto"
+        />
+        <ReportsTableItem
+          version="v1.1"
+          link="/assets/e3.pdf"
+          name="E3: Relatório Técnico: Análise"
+        />
+        <ReportsTableItem
+          version="v1.1"
+          link="/assets/e4.pdf"
+          name="E4: Relatório Técnico: Protótipo"
+        />
       </Table>
     </div>
     <div class="lg:w-2/3 w-full mx-auto overflow-auto mb-12">
-      <Table headers={['Version', 'Date', 'Author', 'Changes']} title="Website">
+      <Table headers={["Version", "Date", "Author", "Changes"]} title="Website">
         <WebsiteTableItem
           version="v1.0"
           date="11/10/2020"
           author="Vasco Sousa"
-          changes="Initial layout, pages and images." />
+          changes="Initial layout, pages and images."
+        />
+        <WebsiteTableItem
+          version="v1.1"
+          date="16/01/2021"
+          author="Vasco Sousa"
+          changes="Add application links and reports."
+        />
       </Table>
     </div>
   </div>

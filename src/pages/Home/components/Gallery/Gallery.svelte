@@ -4,8 +4,8 @@
       <h1 class="title-section">Find out what other people are doing</h1>
       <p class="subtitle-section lg:w-2/3 mx-auto">
         We strongly believe that a community driven service is crucial to
-        succeed in today's market. So that we encourage our users to share their
-        events if they are willing to. Take a time and see what other people are
+        succeed in today's market. We encourage our users to share their events
+        if they are willing to. Take some time to see what other people are
         doing with our services.
       </p>
     </div>
